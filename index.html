@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-3D Model Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #input-text {
+            width: 50%;
+            height: 100px;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+        }
+        #generate-button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #generate-button:hover {
+            background-color: #3e8e41;
+        }
+        #result-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text-to-3D Model Generator</h1>
+    <textarea id="input-text" placeholder="Enter text description"></textarea>
+    <button id="generate-button">Generate 3D Model</button>
+    <div id="result-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
